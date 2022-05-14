@@ -1,8 +1,9 @@
-setwd('C:/Users/rubind1/Documents/Coursera-R')
+setwd('D:\data scientist\File R Programming Coursera\Week 3')
 ##
-## I simply set the input x as a matrix
-## and then set the solved value "s" as a null
-## then I changed every reference to "mean" to "solve"
+## First, set the input x as a matrix (Pertama, Saya membuat input X sebagai matrix)
+## and then set the solved value "s" as a null (lalu membuat nilai hasil "s" sebagai null)
+## then I changed every reference from "mean" to "solve" (lalu mengubah preferens nya dari rata-rata menjadi perbaikan)
+
 makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
   s <- NULL
   set <- function(y) {
